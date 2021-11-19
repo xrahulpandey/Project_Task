@@ -20,7 +20,7 @@ public class Services {
 		            };
 		 WebDriverWait wait = new WebDriverWait(driver, 30);
 	   wait.until(pageLoadCondition);}
-	public static void Wait() {
+	public static void Wait(WebDriver driver) {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\pande\\chromedriver.exe");   
 		 
 		  try {
